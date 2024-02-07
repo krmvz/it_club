@@ -1,0 +1,59 @@
+body{
+    width: 1434px;
+}
+header{
+    nav{
+        display: flex;
+        flex-direction: row;
+        .navbar_nav{
+            display: flex;
+            flex-direction: row;
+        }
+        .logos{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+.home_section{
+    background: url('../img/backgroun\ image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1434px;
+    height: 716px;
+
+    .ad_card{
+        background-color: #E8F9FD;
+        width: 643px;
+        height: 443px;
+        width: 643px;
+        height: 443px;
+        border-radius: 10px;
+        .cards_text_button{
+            width: 561px;
+            height: 344px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .p1{
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 3px;
+                text-align: left;
+            }
+            h2{
+                font-family: Poppins;
+                font-size: 52px;
+                font-weight: 700;
+                line-height: 65px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #46B6C5;
+                background-color: red($color: #000000);
+
+            }
+        }
+    }
+}

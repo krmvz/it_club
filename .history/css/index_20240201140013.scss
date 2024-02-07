@@ -1,0 +1,34 @@
+body{
+    w
+}
+header{
+    nav{
+        display: flex;
+        flex-direction: row;
+        .navbar_nav{
+            display: flex;
+            flex-direction: row;
+        }
+        .logos{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+.home_section{
+    background: url('../img/backgroun\ image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 1007.93px;
+
+    .ad_card{
+        background-color: #E8F9FD;
+        width: 643px;
+        height: 443px;
+        width: 643px;
+        height: 443px;
+        border-radius: 10px;
+
+    }
+}

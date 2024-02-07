@@ -1,0 +1,13 @@
+header{
+    nav{
+        display: flex;
+        flex-direction: row;
+        .navbar_nav{
+            display: flex;
+        }
+        .logos{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}

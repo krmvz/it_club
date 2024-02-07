@@ -1,0 +1,13 @@
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: sp;
+}
+header nav .navbar_nav {
+  display: flex;
+  flex-direction: row;
+}
+header nav .logos {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=index_20240201132224.css.map */

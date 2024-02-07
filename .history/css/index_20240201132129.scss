@@ -1,0 +1,11 @@
+header{
+    nav{
+        display: flex;
+        flex-direction: row;
+        .nav
+        .logos{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}

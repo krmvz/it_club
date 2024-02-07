@@ -1,0 +1,8 @@
+header nav {
+  display: flex;
+  flex-direction: row;
+}
+header nav .navbar_ .logos {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=index_20240201132132.css.map */

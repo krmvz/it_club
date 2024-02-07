@@ -1,0 +1,18 @@
+header{
+    nav{
+        display: flex;
+        flex-direction: row;
+        .navbar_nav{
+            display: flex;
+            flex-direction: row;
+        }
+        .logos{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+.home_section{
+    background-image: url('../img/backgroun\ image.png');
+    ad: .card;
+}

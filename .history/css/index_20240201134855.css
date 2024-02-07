@@ -1,0 +1,22 @@
+header nav {
+  display: flex;
+  flex-direction: row;
+}
+header nav .navbar_nav {
+  display: flex;
+  flex-direction: row;
+}
+header nav .logos {
+  display: flex;
+  flex-direction: row;
+}
+
+.home_section {
+  background-image: url("../img/backgroun image.png");
+  width: 1440px;
+  height: 1007.93px;
+}
+.home_section .ad_card {
+  width: 643px;
+  height: 443px;
+}/*# sourceMappingURL=index_20240201134855.css.map */

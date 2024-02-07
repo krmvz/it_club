@@ -1,0 +1,24 @@
+body {
+  width: 1434px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+}
+header nav .navbar_nav {
+  display: flex;
+  flex-direction: row;
+}
+header nav .logos {
+  display: flex;
+  flex-direction: row;
+}
+
+.home_section {
+  background: url("../img/backgroun image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1434px;
+  height: 716px;
+}/*# sourceMappingURL=index_20240201191943.css.map */

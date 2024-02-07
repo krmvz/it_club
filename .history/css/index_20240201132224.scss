@@ -1,0 +1,15 @@
+header{
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: sp;
+        .navbar_nav{
+            display: flex;
+            flex-direction: row;
+        }
+        .logos{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}

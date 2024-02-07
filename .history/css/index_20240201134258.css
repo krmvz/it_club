@@ -1,0 +1,17 @@
+header nav {
+  display: flex;
+  flex-direction: row;
+}
+header nav .navbar_nav {
+  display: flex;
+  flex-direction: row;
+}
+header nav .logos {
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  background-image: url("../");
+  background-color: red;
+}/*# sourceMappingURL=index_20240201134258.css.map */

@@ -1,0 +1,16 @@
+header nav {
+  display: flex;
+  flex-direction: row;
+}
+header nav .navbar_nav {
+  display: flex;
+  flex-direction: row;
+}
+header nav .logos {
+  display: flex;
+  flex-direction: row;
+}
+
+.home_section {
+  background: "./img/backgroun image.png";
+}/*# sourceMappingURL=index_20240201133015.css.map */
