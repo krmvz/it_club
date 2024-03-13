@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online shop</title>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <!-- normalize.css link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- boxicons link -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!-- custom styles -->
+  <link rel="stylesheet" href="css/single-product.css">
+  <link rel="stylesheet" href="css/sing-product2.css">
+
+</head>
+<body>
+    <div class="layout2"></div>
+  <nav>
+    <div class="top-nav">
+        <div id="logo">A</div>
+        <ul class ="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul class ="icons">
+          <li><a href="#"><img src="img/user.png" alt="user"></a>
+          </li>
+          <li><a href="#"><img src="img/search.png" alt="search"></a>
+          </li>
+          <li><a href="#"><img src="img/like.png" alt="like"></a>
+          </li>
+          <li><a href="card.html"><img src="img/basket.png" alt="cart"></a>
+          </li>
+        </ul>
+    </div>  
+  </nav>
+  <!-- Single Product section -->
+  <header>
+    <div class="pages">
+      <a href="index.html">Home </a> <pre> &gt; </pre>
+      <a href="shop.html">Shop </a> <pre> &gt; </pre>
+      <div class="vertical-line"></div>
+      <p>Asgaard sofa</p>
+    </div> 
+  </header>
+  <main>
+    <div class="sofa">
+      <div class="images">
+        <div class="images2">
+          <img id="sofa2" src="images\shop2.png" alt="sofa2">
+          <img id="sofa3" src="images\shop3.png" alt="sofa3">
+          <img id="sofa4" src="images\shop4.png" alt="sofa4">
+          <img id="sofa5" src="images\shop5.png" alt="sofa5">
+        </div>
+        <img id="sofa1" src="images\shop1.png" alt="sofa1">
+      </div>
+      <div class="sofa-details">
+        <h5>Sofa</h5>
+          <h6>$ 1.200</h6>
+          <div class="product-mark1">
+            <div class="stars">
+              <span style="width: 75%;">★★★★★</span>
+            </div>
+            <div class="vertical-line"></div>
+            <p>5 Customer Review</p>
+          </div>
+          <p>
+            Setting the bar as one of the loudest speakers in its class, the <br>
+            Kilburn is a compact, stout-hearted hero with a well-balanced <br>
+            audio which boasts a clear midrange and extended highs for a <br>
+            sound.
+          </p>
+          <p class="details">Size</p>
+          <div class="size">
+            <button class="btn">L</button>
+            <button class="btn">XL</button>
+            <button class="btn">XS</button>
+          </div>
+          <p class="details">Color</p>
+          <div class="color">
+            <button class="color-btn" id="purple"></button>
+            <button class="color-btn" id="black"></button>
+            <button class="color-btn" id="blue"></button>
+          </div>
+            <div class="col-md-3">
+              <div class="button-card-wrapper">
+                  <input type="button" value="-" class="subtract ">
+                  <input type="number" step="1" min="0" max="120" value="1" class="js-number"
+                      autocomplete="off" placeholder="" inputmode="numeric">
+                  <input type="button" value="+" class="add">
+              </div>
+              <button class="bot-btn">Add To Cart</button>
+              <button class="bot-btn">&#43; Compare</button>
+            </div>
+            <hr class="line2">
+            <div class="bottom-text">
+              <ul>
+                <li>SKU</li>
+                <li>Category</li>
+                <li>Tags</li>
+                <li>Share</li>
+              </ul>
+              <ul>
+                <li>&colon;</li> 
+                <li>&colon;</li> 
+                <li>&colon;</li> 
+                <li> &colon;</li>
+              </ul>
+              <ul>
+                <li>SS001</li>
+                <li>Sofas</li>
+                <li>Sofa, Chair, Home, Shop</li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                </svg>
+              </ul>
+            </div>
+      </div>
+    </div>
+
+    <!-- second part -->
+    <div class="second-part">
+      <div class="info-main">
+        <p id="description">Description</p>
+        <p id="info">Additional Information</p>
+        <p id="review">Reviews [5]</p>
+      </div>
+      <div class="content">
+        <p>Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and <br>
+          sound of Marshall, unplugs the chords, and takes the show on the road.</p>
+      </div>
+      <div class="content">
+        <p>Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest <br>
+          speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange <br>
+          and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls <br>
+          to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
+      </div>
+      <div class="white-sofa-img">
+          <div>
+            <img id="white-sofa1" src="images\white-sofa-shop.png" alt="white-sofa">
+            <img id="white-sofa2" src="images\white-sofa2-shop.png" alt="white-sofa2">
+          </div>
+      </div>
+    </div>
+
+    <!-- third part -->
+    <div class="product_section container">
+      <h3>Related Products</h3>
+      <div class="products_cards">
+          <div class="product_card">
+              <img src="./img/card img 1.png" alt="">
+              <div class="card_text container">
+                  <div class="card_title">Syltherine</div>
+                  <div class="card_style">Stylish cafe chair</div>
+                  <div class="card_cost">$ 2.500.000 <div class="card_bcost">$ 3.500.000</div></div>
+              </div>
+              <div class="layout"></div>
+              <div class="hover_options">
+                <div class="to_card_btn">
+                  <button>Add to card</button>
+                </div>
+                <div class="mut_options">
+                  <div class="share optn"><img src="./img/share.png" alt="">Share</div>
+                  <div class="compare optn"><img src="./img/compare.png" alt="">Compare</div>
+                  <div class="like optn"><img src="./img/Like icon.png" alt="">Like</div>
+                </div>
+              </div>
+              
+          </div>
+          <div class="product_card">
+              <img src="images\related-products2.png" alt="">
+              <div class="card_text container">
+                  <div class="card_title">Leviosa</div>
+                  <div class="card_style">Stylish cafe chair</div>
+                  <div class="card_cost">$ 2.500.000</div>
+              </div>
+              <div class="layout"></div>
+              <div class="hover_options">
+                <div class="to_card_btn">
+                  <button>Add to card</button>
+                </div>
+                <div class="mut_options">
+                  <div class="share optn"><img src="./img/share.png" alt="">Share</div>
+                  <div class="compare optn"><img src="./img/compare.png" alt="">Compare</div>
+                  <div class="like optn"><img src="./img/Like icon.png" alt="">Like</div>
+                </div>
+              </div>
+          </div>
+          <div class="product_card">
+              <img src="images\related-products3.png" alt="">
+              <div class="card_text container">
+                  <div class="card_title">Lolito</div>
+                  <div class="card_style">Luxury big sofa</div>
+                  <div class="card_cost">$ 7.000.000 <div class="card_bcost">$ 14.000.000</div></div>
+              </div>
+              <div class="layout"></div>
+              <div class="hover_options">
+                <div class="to_card_btn">
+                  <button>Add to card</button>
+                </div>
+                <div class="mut_options">
+                  <div class="share optn"><img src="./img/share.png" alt="">Share</div>
+                  <div class="compare optn"><img src="./img/compare.png" alt="">Compare</div>
+                  <div class="like optn"><img src="./img/Like icon.png" alt="">Like</div>
+                </div>
+              </div>
+          </div>
+          <div class="product_card">
+              <img src="images\related-products4.jpeg" alt="">
+              <div class="card_text container">
+                  <div class="card_title">Respira</div>
+                  <div class="card_style">Outdoor bar table and stool</div>
+                  <div class="card_cost">$ 500.000 <div class="card_bcost"></div></div>
+              </div>
+              <div class="layout"></div>
+              <div class="hover_options">
+                <div class="to_card_btn">
+                  <button>Add to card</button>
+                </div>
+                <div class="mut_options">
+                  <div class="share optn"><img src="./img/share.png" alt="">Share</div>
+                  <div class="compare optn"><img src="./img/compare.png" alt="">Compare</div>
+                  <div class="like optn"><img src="./img/Like icon.png" alt="">Like</div>
+                </div>
+              </div>
+          </div>
+      </div>       
+      <div class="show_more">
+        <button>Show More</button>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- footer section design -->
+  <div class="main-footer">
+    <footer class="footer">
+      <div class="footer-content">
+        <h1>Ala-Too IT Club</h1>
+        <h4>Done by University students</h4>
+      </div>
+      <div class="footer-content">
+        <h5>Links</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="footer-content">
+        <h5>Help</h5>
+        <ul>
+          <li><a href="#">Payment Options</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Privacy Policies</a></li>
+        </ul>
+      </div>
+    </footer>
+    <hr class="line">
+    <div id="text-bottom">
+      <p id="copy">All rights reserved by Ala-Too IT Club</p>
+    </div>
+  </div> 
+   <script src="js\single-product.js"></script>
+ </body>
+</html>
