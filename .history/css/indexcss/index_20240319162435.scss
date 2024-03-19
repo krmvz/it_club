@@ -2,74 +2,9 @@ body{
     width: 1434px;
 }
 header{
-    * { 
-        box-sizing: border-box; 
-      } 
-      body { 
-      font-family: 'Poppins', sans-serif; 
-      background-color: white; 
-      } 
-       
-      nav { 
-      height: 108px; 
-      margin: auto; 
-      } 
-       
-      #logo { 
-      width: 12%; 
-      font-family: "Rye", serif; 
-      font-weight: 400; 
-      font-size: 60px; 
-      line-height: 96px; 
-      margin-left: 145px; 
-      margin-top: -20px; 
-      background: linear-gradient(165.1deg, #F31616 8.76%, rgba(65, 26, 223, 0.96) 76.96%); 
-      -webkit-background-clip: text; 
-      color: transparent; 
-      }  
-       
-      .nav-links { 
-      display: flex; 
-      justify-content: space-between;  
-      width: 41%; 
-      line-height: 24px; 
-      font-size: 16px; 
-      font-weight: 500; 
-      list-style: none; 
-      margin: 0px; 
-      } 
-       
-      .nav-links a { 
-      text-decoration: none; 
-      color: #000; 
-      } 
-       
-      .icons { 
-      display: flex; 
-      justify-content: space-between; 
-      width: 20%; 
-      line-height: 24px; 
-      list-style: none; 
-      margin-right: 30px; 
-      } 
-      .icons a{ 
-      text-decoration: none; 
-      color: #000; 
-      } 
-      .top-nav { 
-      display: flex; 
-      width: 100% !important; 
-      height: 108px; 
-      justify-content: space-between; 
-      align-items: center; 
-      } 
-       
     nav{
-        // display: flex;
-        // flex-direction: row;
-        a{
-            width: 100px;
-        }
+        display: flex;
+        flex-direction: row;
         .navbar_nav{
             display: flex;
             flex-direction: row;
@@ -78,16 +13,8 @@ header{
             display: flex;
             flex-direction: row;
         }
-        .navs{
-            display: flex;
-            flex-direction: row;
-
-        }
         ul{
-            list-style: none;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+            list-style: ;
         }
     }
 }

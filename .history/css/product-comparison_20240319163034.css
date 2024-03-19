@@ -1,0 +1,85 @@
+<nav>
+    <div class="top-nav">
+        <div id="logo">A</div>
+        <ul class ="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class ="icons">
+          <li><a href="#"><img src="img/user.png" alt="user"></a>
+          </li>
+          <li><a href="#"><img src="img/search.png" alt="search"></a>
+          </li>
+          <li><a href="#"><img src="img/like.png" alt="like"></a>
+          </li>
+          <li><a href="card.html"><img src="img/basket.png" alt="cart"></a>
+          </li>
+        </ul>
+    </div>   
+  </nav>
+table {
+  border-top: 1px solid #ccc;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-collapse: collapse;
+  width: calc(100% - 108px);
+  margin: 30px 54px;
+  table-layout: fixed; /* Set table layout to fixed */
+}
+
+th, td {
+  padding: 20px 40px;
+  border-right: 1px solid #E8E8E8;
+  width: auto;
+}
+
+td:last-child {
+  border-right: none; 
+}
+
+td:first-child {
+  border-left: none; 
+}
+th{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+td{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.comparison-button{
+    width: 215px;
+    height: 64px;
+    border: 1px;
+    background-color: #46B6C5;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+
+
+  
+
+  
+
+
+
