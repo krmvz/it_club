@@ -543,42 +543,6 @@ header{
         }
     }
 }
-.gallSect{
-    margin-top: 60px;
-    .subTitle{
-        font-family: Poppins;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 30px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: #616161;
-    }
-    .gallTitle{
-        font-family: Poppins;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 48px;
-        letter-spacing: 0em;
-        text-align: center;
-        padding-bottom: 35px;
-    }
-    .gallImg{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        .galimg{
-            img{
-                height: 285px;
-                // width: 200px; /* Example width */
-                // height: auto;
-                margin: 5px;
-                object-fit: cover;
-            }
-        }
-    }
-}
-
 footer{
     .b_div{
         background-color: #BDE9EF;

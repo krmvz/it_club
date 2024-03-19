@@ -267,34 +267,15 @@
         </div>
       </div>
     </div>
-    <div class='gallSect container'>
-      <div class='subTitle'>Share your setup with</div>
-      <div class="gallTitle">#FuniroFurniture</div>
-      <div class="gallImg">
-        <div class="galimg">
-          <img src='./img/card img 1.png' alt={product.name} />
-        </div>
-        <div class="galimg">
-          <img src='./img/card img 11.png' alt={product.name} />
-        </div>
-        <div class="galimg">
-          <img src='./img/card img 13.png' alt={product.name} />
-        </div>
-        <div class="galimg">
-          <img src='./img/card img 14.png' alt={product.name} />
-        </div>
-        <div class="galimg">
-          <img src='./img/section img 1.png' alt={product.name} />
-        </div>
-        <div class="galimg">
-          <img src='./img/ins img 2.png' alt={product.name} />
-        </div>
-        <div class="galimg">
-          <img src='./img/backgroun image.png' alt={product.name} />
-        </div>
-        <div class="galimg">
-          <img src='./img/card img 12.png' alt={product.name} />
-        </div>
+    <div className='gallSect container'>
+      <div className='subTitle'>Share your setup with</div>
+      <div className="gallTitle">#FuniroFurniture</div>
+      <div className="gallImg">
+      {products.map(product => (
+          <div key={product.name} className="galimg">
+            <img src={product.image} alt={product.name} />
+          </div>
+          ))}
       </div>
   </div>
 
