@@ -1,160 +1,150 @@
-* {
+html {
+    box-sizing: border-box;
+    min-width: 1240px;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     background-color: white;
+    color: rgba(0, 0, 0, 1);
+
 }
 
-a {
+li a {
     text-decoration: none;
     color: inherit;
 }
 
-ul li {
+ul {
     list-style: none;
 }
 
-li {
-    list-style: none;
-    color: inherit;
-}
-
-
-/* header section */
-
-header {
-    max-width: 14340px;
-    height: 93px;
+.container {
+    max-width: 1224px;
+    min-width: 1124px;
     margin: 0 auto;
 }
 
-.header{
-    width: 100%;
-    height: 108px;
-    padding: 0 105px;
+/* header section */
+
+.header_content {
+    display: flex;
     justify-content: space-between;
-    align-items: center;
-    justify-content: center;
+    max-height: 108px;
 }
 
 #header_logo {
-    width: 12%;
-    font-family: Rye;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 96px;
-    margin-left: 145px;
-    margin-top: -20px;
-    background: linear-gradient(165.1deg, #F31616 8.76%, rgba(65, 26, 223, 0.96) 76.96%);
-    -webkit-background-clip: text;
-    color: transparent;
+    margin-left: 150px;
 }
 
-.header-nav {
-    width: 41%;
-    justify-content: space-between;
-    padding-right: 80px;
+.menu_list {
+    display: flex;
+    margin-top: 28px;
+    gap: 0 75px;
 }
 
-.nav-link{
-    font-weight: 500;
+.menu_item {
     font-size: 16px;
+    font-weight: 500;
     line-height: 24px;
+    letter-spacing: 0em;
 }
 
-.header-nav li a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.header-icons {
-    width: 22%;
-    justify-content: space-between;
+.header_icons {
+    display: flex;
+    align-items: center;
+    gap: 0 50px;
 }
 
 
 /* main section */
 
-.main {
+/* banner */
+.banner {
     width: 100%;
     height: 316px;
     position: relative;
+    margin-bottom: 55px;
+    min-width: 1150px;
 }
-
-.main_bg {
+.banner_bg {
     position: absolute;
     z-index: -1;
     width: 100%;  
 }
 
-.main_bg img{
+.banner_bg img{
     display: block;
     width: 100%;
     max-height: 316px;
     object-fit: cover;
-    background-size: cover;
     filter: blur(2px);
     opacity: 0.5;
 }
 
-.main_content {
+.banner_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 64px 0;
-}
-
-.main_logo {
-    width: 5%;
-    margin: auto;
-}
-
-.main_title {
-    font-weight: 500;
-    font-size: 48px;
-    height: 72px;
-    text-align: center;
-}
-
-.main_subtitle {
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-    height: 24px;
-}
-
-.main_subtitle a {
-    text-decoration: none;
-    color: inherit;
-}
-
-
-/* checkout us section */
-
-.checkout {
-    width: 1242px;
-    margin: auto;
-    margin-top: 55px;
     font-family: 'Poppins', sans-serif;
-    padding: 35px 74px;
     color: rgba(0, 0, 0, 1);
+}
+
+.banner_title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: 0em;
+    margin-bottom: 10px;
+}
+
+.banner_content ul {
+    padding-left: 0;
+}
+
+.banner_subtitle li {
+    display: inline-flex;
+}
+
+.banner_subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+
+/* checkout section */
+
+.checkout_content {
     display: flex;
     justify-content: space-between;
+    padding: 35px 37px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 1);  
+    letter-spacing: 0em;
 }
 
 .checkout_title {
     font-size: 36px;
     font-weight: 600;
     line-height: 54px;
-    letter-spacing: 0em;
     margin-bottom: 30px;
 }
 
 .personalInfo {
     display: flex;
     flex-direction: column;
+    padding-left: 37px;
     width: 41%;
+    /* max-width: 602px; */
 }
 
 .personalInfo_name {
@@ -174,11 +164,10 @@ header {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0em;
     margin-bottom: 30px;
 }
 
-.personalInfo_input {
+.personalInfo_input, .personalInfo_select{
     width: 100%;
     height: 75px;
     border-radius: 10px;
@@ -191,22 +180,13 @@ header {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
     opacity: 0.5;
 }
 
-.personalInfo_select {
-    width: 100%;
-    height: 75px;
-    border-radius: 10px;
-    border: 1px solid #9F9F9F;
-    padding: 0 31px;
-    margin-bottom: 30px;
-}
-
 .productInfo {
-    width: 50%;
     padding: 87px 38px;
+    width: 50%;
+    /* max-width: 608px; */
 }
 
 .productInfo_pay {
@@ -217,15 +197,13 @@ header {
 .productInfo_pay h4 {
     font-size: 24px;
     font-weight: 500;
-    line-height: 36px;
-    letter-spacing: 0em; 
+    line-height: 36px;; 
 }
 
 .productInfo_pay-content {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
 }
 
 .productInfo-subject {
@@ -236,7 +214,6 @@ header {
     font-size: 12px;
     font-weight: 500;
     line-height: 18px;
-    letter-spacing: 0em;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -248,7 +225,6 @@ header {
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
-    letter-spacing: 0em;
     color: rgba(70, 182, 197, 1);
 }
 
@@ -258,10 +234,8 @@ header {
 }
 
 .productInfo_payInfo {
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: justify;
 }
 
@@ -290,7 +264,6 @@ header {
 }
 
 .productInfo_payInfo-extraInfo {
-    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     margin-bottom: 25px;
     color: rgba(159, 159, 159, 1);
@@ -363,12 +336,17 @@ header {
 /* quality-line */
 
 .qualityLine{
-    display: flex;
     background-color: #E8F9FD;
-    width: 100%;
+    min-width: 1240px;
+    padding: 100px 0;
     margin-bottom: 30px;
-    padding: 100px 53px;
+}
+
+.qualityLine_content {
+    display: flex;
     justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .qualityLine-subsection {
@@ -406,7 +384,7 @@ header {
 
 /* footer design */
 
-.main-footer{
+.footer{
     font-family: 'Poppins', sans-serif;
     flex-direction: column;
     background-color: #BDE9EF;
@@ -415,12 +393,16 @@ header {
     padding: 48px 100px 38px;
 }
 
-.footer{
+.footer_content{
     display: flex;
     width: 775.01px;
     height: 75%;
     margin-bottom: 48px;  
     justify-content: space-between; 
+}
+
+.footer_content ul {
+    padding-left: 0;
 }
 
 .footer_title {
@@ -442,7 +424,7 @@ header {
     width: 37%;
 }
 
-.footer_content {
+.footer_links {
     width: 13%;
 }
 
@@ -454,7 +436,7 @@ header {
     margin-bottom: 46px;
 }
 
-.footer_links {
+.footer_link {
     margin-bottom: 46px;
     text-decoration: none; 
     font-weight: 500;
